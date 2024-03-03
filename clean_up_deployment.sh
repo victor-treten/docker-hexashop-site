@@ -23,7 +23,7 @@ echo -e  "\n"
 
 echo "******************************************"
 echo "Deleting hexashop-image tagged to your docker hub local repository:"
-docker rmi victortreten/repo_test:hexashop
+docker rmi odennav/nginx:hexashop
 sleep 5
 echo -e  "\n"
 

@@ -10,7 +10,7 @@ echo -e "\n"
 echo "**********************************************************"
 echo "Editing Dockerfile"
 echo "FROM nginx:alpine" > Dockerfile
-echo "COPY ./2109_the_hexashop/ /usr/share/nginx/html" >> Dockerfile
+echo "COPY ./templatemo_571_hexashop/ /usr/share/nginx/html" >> Dockerfile
 echo -e "\n"
 
 echo "**********************************************************"
@@ -50,13 +50,13 @@ echo -e "\n"
 
 echo "**********************************************************"
 echo "Tag image to repository with hexashop tag"
-docker tag hexashop-image:hexashop victortreten/repo_test:hexashop
+docker tag hexashop-image:hexashop odennav/nginx:hexashop
 sleep 5
 echo -e "\n"
 
 echo "**********************************************************"
 echo "Push tagged image to dockerhub"
-docker push victortreten/repo_test:hexashop
+docker push odennav/nginx:hexashop
 sleep 5
 echo -e "\n"
 
