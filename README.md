@@ -8,7 +8,7 @@ Automate deployment of the Card website with an Nginx server using Docker images
 This repository includes scripts to push Docker images to your DockerHub repository and clean up deployment on local machine(optional).
 
 ******************
-![](https://github.com/odennav/docker-nginx-hexashop/blob/main/hexashop-shot.PNG) 
+![](https://github.com/odennav/docker-nginx-hexashop/blob/main/docs/hexashop-shot.PNG) 
 
 
 ## Getting Started
