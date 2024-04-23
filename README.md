@@ -77,6 +77,7 @@ The provided Vagrant file simplifies VM Management.
 ## Clean Up Deployment(Optional)
    **Delete docker images and containers used to host nginx website**:
    ```bash
+   cd bash-scripts/
    bash clean_up.sh 
    ```
 ## Contribution Guidelines
